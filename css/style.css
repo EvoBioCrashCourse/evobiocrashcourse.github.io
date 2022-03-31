@@ -14,13 +14,13 @@ html {
 }
 
 a:hover {
-  color: #f7cf23;
+  color: #b99707;
   opacity: 0.9;
   transition: 0.1s;
 }
 
 a:hover span {
-  color: #f7cf23;
+  color: #b99707;
   opacity: 0.7;
   transition: 0.1s;
 }
