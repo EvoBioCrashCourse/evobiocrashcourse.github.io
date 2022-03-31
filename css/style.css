@@ -75,7 +75,8 @@ nav ul {
 
 /* Elements of the ul */
 nav li {
-  float: right;
+  position: relative;
+  display: inline-block;
   margin: 0rem 0rem 0rem 1vw;
   font-size: 2.2rem;
   font-family: "Source Sans Pro", sans-serif;
