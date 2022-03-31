@@ -1,0 +1,146 @@
+* {
+  margin: 0rem 0rem 0rem 0rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Source Sans Pro Light", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+a:hover {
+  color: #f7cf23;
+  opacity: 0.9;
+  transition: 0.1s;
+}
+
+a:hover span {
+  color: #f7cf23;
+  opacity: 0.7;
+  transition: 0.1s;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Banner takes the whole page */
+.banner {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+/* Grey banner */
+nav {
+  display: block;
+  margin-left: 8%;
+  margin-right: 20%;
+  padding: 1.6rem 0 0 0rem;
+  background: #f2f2f2;
+  color: rgb(35, 35, 35);
+  height: 22rem;
+}
+
+/* Ben Kawam ("home" link) on main page */
+#logo-top-left {
+  width: 19rem;
+  transform: translateY(-1rem);
+}
+
+#home-title-top-left {
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-size: 5rem;
+  color: #96b193;
+  display: block;
+  transform: translateY(-16rem);
+  margin-left: 20%;
+}
+
+/* Unordered list = the navigation float */
+nav ul {
+  float: right;
+  list-style: none;
+  transform: translateY(-12rem);
+}
+
+/* Elements of the ul */
+nav li {
+  float: left;
+  margin: 0rem 0rem 0rem 1vw;
+  font-size: 2.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #95b092;
+}
+
+/* Size of elements of ul */
+nav a {
+  font-size: 2.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #363e36;
+}
+
+/* Colour of targeted link */
+.tab-target {
+  color: #847e69;
+}
+
+.main-home {
+  float: left;
+  margin-bottom: 10rem;
+}
+
+.main-text {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 1.2rem;
+  color: #366634;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+#bottom-banner {
+  padding-bottom: 1%;
+  position: abolute;
+  width: 100%;
+  background: #7e9f86;
+  border: 0px;
+  height: 30rem;
+}
+
+.text-bottom-illustrations {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 2rem;
+  color: #fffdfd;
+  font-style: italic;
+}
+
+h3 {
+  position: absolute;
+  color: #f7cf23;
+  font-size: 2.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#bottom-illustrations {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #fbfbfb;
+  border: 0px;
+  height: 25rem;
+}
