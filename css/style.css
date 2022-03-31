@@ -68,10 +68,9 @@ nav ul {
   position: absolute;
   right: 0px;
   margin-right: 20%;
-  margin-top: 28rem;
+  margin-top: 16rem;
   float: right;
   list-style: none;
-  transform: translateY(-12rem);
 }
 
 /* Elements of the ul */
@@ -83,35 +82,25 @@ nav li {
   color: #95b092;
 }
 
-/* Size of elements of ul */
-nav a {
+/* Size of elements of li, which are anchors */
+nav li a {
   font-size: 2.2rem;
   font-family: "Source Sans Pro", sans-serif;
   color: #363e36;
 }
 
-/* Colour of targeted link */
-.tab-target {
-  color: #847e69;
-}
-
+/* Main content */
 .main-home {
   float: left;
   margin-top: 8rem;
 }
 
-.text {
+/* Text in the main (global div) */
+.text-div {
   margin-bottom: 10rem;
 }
 
-.main-text {
-  font-size: 1.8rem;
-  margin-bottom: 4rem;
-  margin-left: 25%;
-  margin-right: 20%;
-  margin-bottom: 2rem;
-}
-
+/* Titles (dark green) */
 h2 {
   font-family: "Source Sans Pro Semibold", sans-serif;
   font-size: 3.5rem;
@@ -121,7 +110,16 @@ h2 {
   margin-right: 20%;
 }
 
-/* Banner takes the whole page a*/
+/* Text in the main (each paragraph) */
+.main-p {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-bottom: 2rem;
+}
+
+/* Bototm banner */
 .bottom-banner {
   width: 100%;
   background: #7e9f86;
@@ -131,12 +129,14 @@ h2 {
   padding-top: 3rem;
 }
 
+/* Bototm banner titles */
 .bottom-banner-title {
   font-family: "Source Sans Pro", sans-serif;
   color: #f7cf23;
   font-size: 1.8rem;
 }
 
+/* Bottom banner content */
 .bottom-banner-content {
   font-style: italic;
   color: #f2f2f2;
