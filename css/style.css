@@ -52,6 +52,10 @@ nav {
   transform: translateY(-1rem);
 }
 
+#logo-phone{
+  display: none;
+}
+
 #home-title-top-left {
   position: absolute;
   left: 0px;
