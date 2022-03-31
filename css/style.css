@@ -41,28 +41,31 @@ nav {
   margin-left: 8%;
   margin-right: 20%;
   padding: 1.6rem 0 0 0rem;
-  background: #f2f2f2;
   color: rgb(35, 35, 35);
   height: 22rem;
 }
 
-/* Ben Kawam ("home" link) on main page */
+/* Main logo */
 #logo-top-left {
+  position: absolute;
   width: 19rem;
   transform: translateY(-1rem);
 }
 
 #home-title-top-left {
+  position: relative;
+  margin-top: 5rem;
   font-family: "Source Sans Pro Semibold", sans-serif;
   font-size: 5rem;
   color: #96b193;
   display: block;
-  transform: translateY(-16rem);
-  margin-left: 20%;
+  margin-left: 23.5%;
 }
 
 /* Unordered list = the navigation float */
 nav ul {
+  position: relative;
+  margin-top: 16rem;
   float: right;
   list-style: none;
   transform: translateY(-12rem);
@@ -91,6 +94,9 @@ nav a {
 
 .main-home {
   float: left;
+}
+
+.text {
   margin-bottom: 10rem;
 }
 
@@ -111,36 +117,25 @@ h2 {
   margin-right: 20%;
 }
 
-#bottom-banner {
-  padding-bottom: 1%;
-  position: abolute;
+/* Banner takes the whole page a*/
+.bottom-banner {
   width: 100%;
   background: #7e9f86;
-  border: 0px;
-  height: 30rem;
-}
-
-.text-bottom-illustrations {
-  position: absolute;
-  bottom: 2rem;
-  font-size: 2rem;
-  color: #fffdfd;
-  font-style: italic;
-}
-
-h3 {
-  position: absolute;
-  color: #f7cf23;
-  font-size: 2.2rem;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-#bottom-illustrations {
-  display: flex;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background: #fbfbfb;
-  border: 0px;
   height: 25rem;
+  padding-left: 25%;
+  padding-right: 20%;
+  padding-top: 3rem;
+}
+
+.bottom-banner-title {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f7cf23;
+  font-size: 1.8rem;
+}
+
+.bottom-banner-content {
+  font-style: italic;
+  color: #f2f2f2;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
