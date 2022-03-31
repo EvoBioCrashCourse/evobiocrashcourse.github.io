@@ -53,19 +53,22 @@ nav {
 }
 
 #home-title-top-left {
-  position: relative;
+  position: absolute;
+  left: 0px;
   margin-top: 5rem;
+  margin-left: 25%;
   font-family: "Source Sans Pro Semibold", sans-serif;
   font-size: 5rem;
   color: #96b193;
   display: block;
-  margin-left: 23.5%;
 }
 
 /* Unordered list = the navigation float */
 nav ul {
-  position: relative;
-  margin-top: 16rem;
+  position: absolute;
+  right: 0px;
+  margin-right: 20%;
+  margin-top: 28rem;
   float: right;
   list-style: none;
   transform: translateY(-12rem);
@@ -94,6 +97,7 @@ nav a {
 
 .main-home {
   float: left;
+  margin-top: 8rem;
 }
 
 .text {
