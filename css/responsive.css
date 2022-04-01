@@ -30,6 +30,23 @@
     padding-left: 21%;
     padding-right: 15%;
   }
+
+  /* subTitles (bright green) */
+  h3 {
+    margin-left: 21%;
+    margin-right: 15%;
+  }
+
+  /* subsubTitles (grey-green green) */
+  h4 {
+    margin-left: 21%;
+    margin-right: 15%;
+  }
+
+  .team-p {
+    margin-left: 21%;
+    margin-right: 15%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -110,6 +127,37 @@
   .bottom-banner {
     padding-left: 7.5%;
     padding-right: 7.5%;
+  }
+
+  /* subTitles (bright green) */
+  h3 {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  /* subsubTitles (grey-green green) */
+  h4 {
+    margin-top: 0rem;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    text-align: center;
+    transform: translateY(26rem);
+  }
+
+  .team-p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .team-pictures {
+    float: none;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 20rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
   }
 }
 
