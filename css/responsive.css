@@ -114,15 +114,20 @@
 }
 
 @media screen and (max-width: 600px) {
+  nav {
+    height: 21rem;
+  }
+
   #logo-phone {
-    top: -10%;
+    top: -14%;
     width: 38rem;
+    transform: translateX(2%);
   }
 
   nav ul {
     width: 160%;
     position: relative;
-    top: 10%;
+    top: 0%;
     right: 50%;
     transform: translateX(15%);
   }
