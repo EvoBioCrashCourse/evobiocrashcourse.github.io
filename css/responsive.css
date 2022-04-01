@@ -76,18 +76,18 @@
     position: relative;
     margin-top: 0rem;
     right: 50%;
-    transform: translateX(3%);
+    transform: translateX(1%);
   }
 
   nav li {
     list-style: none;
     position: relative;
     left: 50%;
-    font-size: 4.5vw;
+    font-size: 4.2vw;
   }
 
   nav li a {
-    font-size: 4.5vw;
+    font-size: 4.2vw;
   }
 
   h2 {
@@ -107,5 +107,23 @@
   .bottom-banner {
     padding-left: 7.5%;
     padding-right: 7.5%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  nav ul {
+    width: 100%;
+    position: relative;
+    margin-top: 2vh;
+    right: 50%;
+    transform: translateX(5%);
+  }
+
+  nav li {
+    font-size: 4.5vw;
+  }
+
+  nav li a {
+    font-size: 4.5vw;
   }
 }
