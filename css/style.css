@@ -118,6 +118,25 @@ h2 {
   margin-right: 20%;
 }
 
+/* Titles (dark green) */
+h3 {
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 0rem;
+  color: #7e9f86;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+/* Titles (dark green) */
+h4 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+  color: #4b574b;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
 /* Text in the main (each paragraph) */
 .main-p {
   font-size: 1.8rem;
@@ -150,4 +169,40 @@ h2 {
   color: #f2f2f2;
   font-size: 1.6rem;
   margin-bottom: 2rem;
+}
+
+/* Main content */
+.main-team {
+  float: left;
+  margin-top: 8rem;
+}
+
+.team-p {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-bottom: 8rem;
+}
+
+.team-pictures {
+  border-radius: 50%;
+  float: right;
+  margin-left: 6rem;
+  width: 13rem;
+  transform: translateY(-5rem);
+}
+
+.h4-name {
+  display: inline-block;
+  font-family: "Source Sans Pro Semibolkd", sans-serif;
+  font-size: 2.8rem;
+  color: #4b574b;
+}
+
+.h4-surname {
+  display: inline-block;
+  font-family: "Source Sans Pro Light", sans-serif;
+  font-size: 2.8rem;
+  color: #4b574b;
 }
