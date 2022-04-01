@@ -25,6 +25,11 @@ a:hover span {
   transition: 0.1s;
 }
 
+/* Colour of targeted link */
+.tab-target a {
+  color: #b99707;
+}
+
 .clear {
   clear: both;
 }
