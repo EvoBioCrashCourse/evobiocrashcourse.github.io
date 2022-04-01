@@ -72,20 +72,22 @@
   }
 
   nav ul {
+    width: 100%;
     position: relative;
     margin-top: 0rem;
     right: 50%;
+    transform: translateX(3%);
   }
 
   nav li {
     list-style: none;
     position: relative;
     left: 50%;
+    font-size: 4.5vw;
   }
 
   nav li a {
-    margin-right: rem;
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   h2 {
