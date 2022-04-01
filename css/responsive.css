@@ -57,37 +57,40 @@
 
   nav {
     display: block;
-    padding: 1.6rem 0 0 0rem;
-    width: 90%;
-    height: 40vh;
+    padding: 0 0 0 0rem;
+    width: 60%;
+    height: 23rem;
     display: block;
     text-align: center;
   }
 
   #logo-phone {
+    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30vh;
+    top: -20%;
+    left: 5%;
+    width: 50rem;
   }
 
   nav ul {
-    width: 100%;
+    width: 120%;
     position: relative;
-    margin-top: 0rem;
+    top: 8%;
     right: 50%;
-    transform: translateX(1%);
+    transform: translateX(13%);
   }
 
   nav li {
     list-style: none;
     position: relative;
     left: 50%;
-    font-size: 4.2vw;
+    font-size: 4vw;
   }
 
   nav li a {
-    font-size: 4.2vw;
+    font-size: 4vw;
   }
 
   h2 {
