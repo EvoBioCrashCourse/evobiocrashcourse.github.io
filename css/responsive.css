@@ -86,11 +86,11 @@
     list-style: none;
     position: relative;
     left: 50%;
-    font-size: 4vw;
+    font-size: 3.8vw;
   }
 
   nav li a {
-    font-size: 4vw;
+    font-size: 3.8vw;
   }
 
   h2 {
@@ -113,13 +113,18 @@
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 600px) {
+  #logo-phone {
+    top: -10%;
+    width: 38rem;
+  }
+
   nav ul {
-    width: 100%;
+    width: 160%;
     position: relative;
-    margin-top: 1.6vh;
+    top: 10%;
     right: 50%;
-    transform: translateX(5%);
+    transform: translateX(17%);
   }
 
   nav li {
@@ -128,5 +133,9 @@
 
   nav li a {
     font-size: 4.5vw;
+  }
+  .main-home {
+    float: left;
+    margin-top: 4rem;
   }
 }
