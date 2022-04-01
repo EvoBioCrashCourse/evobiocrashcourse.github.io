@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 600px) {
   nav {
-    height: 21rem;
+    height: 20rem;
   }
 
   #logo-phone {
@@ -127,7 +127,7 @@
   nav ul {
     width: 160%;
     position: relative;
-    top: 0%;
+    top: -8%;
     right: 50%;
     transform: translateX(15%);
   }
