@@ -133,13 +133,21 @@
     margin-right: 7.5%;
   }
 
-  /* subsubTitles (grey-green green) */
+  /* subsubTitles (grey-green) */
   h4 {
     margin-top: 0rem;
     margin-left: 7.5%;
     margin-right: 7.5%;
     text-align: center;
-    transform: translateY(26rem);
+    transform: translateY(27rem);
+  }
+
+  .h4-name {
+    font-size: 3.3rem;
+  }
+
+  .h4-surname {
+    font-size: 3.3rem;
   }
 
   .team-p {
@@ -155,7 +163,7 @@
     display: flex;
     width: 20rem;
     margin-top: 6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
 
