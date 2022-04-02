@@ -176,6 +176,12 @@ h4 {
   margin-bottom: 2rem;
 }
 
+.bottom-banner-content a:hover {
+  color: #fff7d1;
+  opacity: 0.9;
+  transition: 0.1s;
+}
+
 /* Main content */
 .main-team {
   float: left;
