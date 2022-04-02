@@ -4,7 +4,8 @@
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
-  font-family: "Source Sans Pro Light", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
 }
 
 html {
@@ -64,7 +65,8 @@ nav {
   left: 0px;
   margin-top: 5rem;
   margin-left: 25%;
-  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 5rem;
   color: #96b193;
   display: block;
@@ -110,7 +112,8 @@ nav li a {
 
 /* Titles (dark green) */
 h2 {
-  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 1.2rem;
   color: #366634;
@@ -120,7 +123,8 @@ h2 {
 
 /* subTitles (bright green) */
 h3 {
-  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 0rem;
   color: #7e9f86;
@@ -196,14 +200,16 @@ h4 {
 
 .h4-name {
   display: inline-block;
-  font-family: "Source Sans Pro Semibolkd", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 2.8rem;
   color: #4b574b;
 }
 
 .h4-surname {
   display: inline-block;
-  font-family: "Source Sans Pro Light", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
   font-size: 2.8rem;
   color: #4b574b;
 }
