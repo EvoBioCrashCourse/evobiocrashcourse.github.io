@@ -170,7 +170,16 @@ h4 {
 
 /* Bottom banner content */
 .bottom-banner-content {
+  font-style: normal;
+  font-weight: 200;
+  color: #f2f2f2;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.bottom-banner-content a {
   font-style: italic;
+  font-weight: 400;
   color: #f2f2f2;
   font-size: 1.6rem;
   margin-bottom: 2rem;
