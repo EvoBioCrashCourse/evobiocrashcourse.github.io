@@ -4,7 +4,8 @@
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
-  font-family: "Source Sans Pro Light", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
 }
 
 html {
@@ -64,7 +65,8 @@ nav {
   left: 0px;
   margin-top: 5rem;
   margin-left: 25%;
-  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 5rem;
   color: #96b193;
   display: block;
@@ -110,7 +112,8 @@ nav li a {
 
 /* Titles (dark green) */
 h2 {
-  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 1.2rem;
   color: #366634;
@@ -120,7 +123,8 @@ h2 {
 
 /* subTitles (bright green) */
 h3 {
-  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 0rem;
   color: #7e9f86;
@@ -151,7 +155,7 @@ h4 {
 .bottom-banner {
   width: 100%;
   background: #7e9f86;
-  height: 25rem;
+  height: 38rem;
   padding-left: 25%;
   padding-right: 20%;
   padding-top: 3rem;
@@ -166,10 +170,25 @@ h4 {
 
 /* Bottom banner content */
 .bottom-banner-content {
-  font-style: italic;
+  font-style: normal;
+  font-weight: 200;
   color: #f2f2f2;
   font-size: 1.6rem;
   margin-bottom: 2rem;
+}
+
+.bottom-banner-content a {
+  font-style: italic;
+  font-weight: 400;
+  color: #f2f2f2;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.bottom-banner-content a:hover {
+  color: #fff7d1;
+  opacity: 0.9;
+  transition: 0.1s;
 }
 
 /* Main content */
@@ -183,7 +202,6 @@ h4 {
   margin-bottom: 4rem;
   margin-left: 25%;
   margin-right: 20%;
-  margin-bottom: 4rem;
 }
 
 .team-pictures {
@@ -196,14 +214,16 @@ h4 {
 
 .h4-name {
   display: inline-block;
-  font-family: "Source Sans Pro Semibolkd", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 2.8rem;
   color: #4b574b;
 }
 
 .h4-surname {
   display: inline-block;
-  font-family: "Source Sans Pro Light", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
   font-size: 2.8rem;
   color: #4b574b;
 }
