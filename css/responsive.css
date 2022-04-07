@@ -129,6 +129,8 @@
 
   /* subTitles (bright green) */
   h3 {
+    text-align: center;
+    font-size: 4.5rem;
     margin-left: 7.5%;
     margin-right: 7.5%;
   }
@@ -139,15 +141,15 @@
     margin-left: 7.5%;
     margin-right: 7.5%;
     text-align: center;
-    transform: translateY(27rem);
+    transform: translateY(26rem);
   }
 
   .h4-name {
-    font-size: 3.3rem;
+    font-size: 2.6rem;
   }
 
   .h4-surname {
-    font-size: 3.3rem;
+    font-size: 2.6rem;
   }
 
   .team-p {
@@ -163,7 +165,7 @@
     display: flex;
     width: 20rem;
     margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 
