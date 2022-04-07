@@ -13,20 +13,20 @@ html {
 }
 
 a:hover {
-  color: #b99707;
+  color: #e4af0e;
   opacity: 0.9;
   transition: 0.1s;
 }
 
 a:hover span {
-  color: #b99707;
+  color: #e4af0e;
   opacity: 0.7;
   transition: 0.1s;
 }
 
 /* Colour of targeted link */
 .tab-target a {
-  color: #b99707;
+  color: #e4af0e;
 }
 
 .clear {
@@ -125,9 +125,9 @@ h2 {
 h3 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 2.6rem;
   margin-bottom: 0rem;
-  color: #7e9f86;
+  color: #e4af0e;
   margin-left: 25%;
   margin-right: 20%;
   margin-top: 8rem;
@@ -135,9 +135,8 @@ h3 {
 
 /* subsubTitles (grey-green green) */
 h4 {
-  font-size: 2.8rem;
-  margin-bottom: 1.2rem;
-  color: #4b574b;
+  font-size: 2.0rem;
+  margin-bottom: 0.4rem;
   margin-left: 25%;
   margin-right: 20%;
 }
@@ -216,14 +215,14 @@ h4 {
   display: inline-block;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
-  font-size: 2.8rem;
-  color: #4b574b;
+  font-size: 2.3rem;
+  color: #2b432d;
 }
 
 .h4-surname {
   display: inline-block;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  font-size: 2.8rem;
-  color: #4b574b;
+  font-size: 2.3rem;
+  color: #2b432d;
 }
