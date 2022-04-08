@@ -190,6 +190,17 @@ h4 {
   transition: 0.1s;
 }
 
+#hr-team {
+  margin-top: 6rem;
+  margin-bottom: -3rem;
+  width: 55%;
+  margin-left: 25%;
+  margin-right: 20%;
+  border: 0;
+  height: 0.1rem;
+  background-color: #dcd6ce;
+}
+
 /* Main content */
 .main-team {
   float: left;
@@ -225,4 +236,8 @@ h4 {
   font-weight: 400;
   font-size: 2.3rem;
   color: #2b432d;
+}
+
+#anne-text {
+  margin-bottom: 6rem;
 }
