@@ -238,6 +238,21 @@ h4 {
   color: #2b432d;
 }
 
+h5 {
+  font-size: 2rem;
+  margin-bottom: 0.0rem;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.h5-lecturer {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  color: #2b432d;
+}
+
 #anne-text {
   margin-bottom: 6rem;
 }
