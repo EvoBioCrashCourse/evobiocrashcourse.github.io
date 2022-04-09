@@ -43,12 +43,6 @@
     margin-right: 15%;
   }
 
-  h5 {
-    margin-top: 0rem;
-    margin-left: 21%;
-    margin-right: 15%;
-  }
-
   .team-p {
     margin-left: 21%;
     margin-right: 15%;
@@ -81,12 +75,6 @@
     margin-top: 3rem;
     font-size: 4rem;
   }
-}
-
-h5 {
-  margin-top: 0rem;
-  margin-left: 21%;
-  margin-right: 15%;
 }
 
 @media screen and (max-width: 800px) {
@@ -153,7 +141,6 @@ h5 {
     padding-right: 7.5%;
   }
 
-  /* subTitles (bright green) */
   h3 {
     text-align: center;
     font-size: 4.5rem;
@@ -161,25 +148,12 @@ h5 {
     margin-right: 7.5%;
   }
 
-  /* subsubTitles (grey-green) */
   h4 {
     margin-top: 0rem;
     margin-left: 7.5%;
     margin-right: 7.5%;
     text-align: center;
     transform: translateY(27.5rem);
-  }
-
-  h5 {
-    margin-top: 0rem;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-  }
-
-  .h5-lecturer {
-    display: inline-block;
-    font-size: 2.6rem;
-    text-align: left;
   }
 
   .h4-name {
@@ -246,5 +220,37 @@ h5 {
   .main-home {
     float: left;
     margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #logo-phone {
+    margin-top: 15%;
+    width: 80%;
+    transform: translateX(2%);
+  }
+
+  nav ul {
+    position: absolute;
+    margin-top: 55%;
+    transform: translateX(7%);
+  }
+
+  nav {
+    height: 45vw;
+  }
+
+  h4 {
+    transform: translateY(28.5rem);
+  }
+
+  .team-p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .team-pictures {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
   }
 }
