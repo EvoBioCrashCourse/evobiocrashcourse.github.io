@@ -209,9 +209,9 @@ h4 {
 
 .team-p {
   font-size: 1.8rem;
-  margin-bottom: 4rem;
   margin-left: 25%;
   margin-right: 20%;
+  margin-bottom: 6rem;
 }
 
 .team-pictures {
@@ -251,8 +251,4 @@ h5 {
   font-weight: 600;
   font-size: 2.3rem;
   color: #2b432d;
-}
-
-#anne-text {
-  margin-bottom: 6rem;
 }
