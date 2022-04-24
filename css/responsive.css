@@ -43,6 +43,11 @@
     margin-right: 15%;
   }
 
+  h5 {
+    margin-left: 21%;
+    margin-right: 15%;
+  }
+
   .team-p {
     margin-left: 21%;
     margin-right: 15%;
@@ -154,6 +159,11 @@
     margin-right: 7.5%;
     text-align: center;
     transform: translateY(27.5rem);
+  }
+
+  h5 {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
   }
 
   .h4-name {
