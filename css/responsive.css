@@ -25,6 +25,11 @@
     margin-right: 15%;
   }
 
+  .pcontent {
+    margin-left: 25%;
+    margin-right: 15%;
+  }
+
   /* Bottom banner */
   .bottom-banner {
     padding-left: 21%;
@@ -138,6 +143,11 @@
   .main-p {
     margin-left: 7.5%;
     margin-right: 7.5%;
+  }
+
+  .pcontent {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   /* Bottom banner */
