@@ -50,10 +50,8 @@
     margin-right: 15%;
   }
 
-  /* subsubTitles (grey-green green) */
   h4 {
     margin-left: 21%;
-    margin-right: 15%;
   }
 
   h5 {
@@ -157,6 +155,10 @@
     margin-left: 7.5%;
   }
 
+  ol li {
+    margin-left: 0.5rem;
+  }
+
   .pcontent {
     margin-left: 10%;
     margin-right: 10%;
@@ -185,6 +187,13 @@
   h5 {
     margin-left: 7.5%;
     margin-right: 7.5%;
+  }
+
+  h4 {
+    text-align: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    transform: translateY(27.5rem);
   }
 
   .h4-name {
@@ -269,10 +278,6 @@
 
   nav {
     height: 45vw;
-  }
-
-  h4 {
-    transform: translateY(28.5rem);
   }
 
   .team-p {
