@@ -291,7 +291,7 @@ ol li {
 
 ol li::before {
   content: counter(li) ".";
-  color: rgb(179, 179, 179);
+  color: #a9a39c;
   display: inline-block;
   width: 1.3em;
   margin-left: -1em;
