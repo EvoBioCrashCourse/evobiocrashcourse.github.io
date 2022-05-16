@@ -134,11 +134,15 @@ h3 {
 }
 
 /* subsubTitles (grey-green green) */
-h4 {
-  font-size: 2rem;
-  margin-bottom: 0.4rem;
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-bottom: 0rem;
+  color: #e4af0e;
   margin-left: 25%;
   margin-right: 20%;
+  margin-top: 2rem;
 }
 
 /* Text in the main (each paragraph) */
@@ -147,7 +151,6 @@ h4 {
   margin-bottom: 4rem;
   margin-left: 25%;
   margin-right: 20%;
-  margin-bottom: 2rem;
 }
 
 /* Bototm banner */
@@ -222,6 +225,10 @@ h4 {
   transform: translateY(-3rem);
 }
 
+h4 {
+  margin-left: 25%;
+}
+
 .h4-name {
   display: inline-block;
   font-family: "Source Sans Pro", sans-serif;
@@ -249,19 +256,47 @@ h5 {
   display: inline-block;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
   color: #2b432d;
 }
 
-.pcontent {
+p.pcontent {
   font-size: 1.8rem;
-  margin-bottom: 4rem;
-  margin-left: 28%;
-  margin-right: 20%;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
+  margin-top: -3rem;
 }
 
 .form {
   font-size: 1.8rem;
   color: #e4af0e;
+}
+
+ol {
+  display: block;
+  margin-right: 20%;
+  margin-top: -3rem;
+  list-style: none;
+  counter-reset: li;
+  margin-left: 25%;
+}
+
+ol li {
+  position: relative;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  counter-increment: li;
+  margin-left: 2rem;
+}
+
+ol li::before {
+  content: counter(li) ".";
+  color: rgb(179, 179, 179);
+  display: inline-block;
+  width: 1.3em;
+  margin-left: -1em;
+}
+
+#end-evo-devo {
+  margin-top: 1.5rem;
 }
