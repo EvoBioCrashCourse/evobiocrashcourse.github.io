@@ -19,10 +19,18 @@
     margin-right: 15%;
   }
 
+  h6 {
+    margin-left: 21%;
+  }
+
   /* Text in the main (each paragraph) */
   .main-p {
     margin-left: 21%;
     margin-right: 15%;
+  }
+
+  ol {
+    margin-left: 21%;
   }
 
   .pcontent {
@@ -145,6 +153,10 @@
     margin-right: 7.5%;
   }
 
+  ol {
+    margin-left: 7.5%;
+  }
+
   .pcontent {
     margin-left: 10%;
     margin-right: 10%;
@@ -163,12 +175,11 @@
     margin-right: 7.5%;
   }
 
-  h4 {
-    margin-top: 0rem;
+  h6 {
+    text-align: left;
+    font-size: 2.6rem;
     margin-left: 7.5%;
     margin-right: 7.5%;
-    text-align: center;
-    transform: translateY(27.5rem);
   }
 
   h5 {
