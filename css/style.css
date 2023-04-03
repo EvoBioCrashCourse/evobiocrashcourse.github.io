@@ -8,6 +8,16 @@
   font-weight: 400;
 }
 
+.italic {
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
 html {
   font-size: 10px;
 }
@@ -303,7 +313,7 @@ ol {
 ol li {
   position: relative;
   font-size: 1.8rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   counter-increment: li;
   margin-left: 2rem;
 }
@@ -321,4 +331,8 @@ ol > li:before {
 ul {
   list-style-type: "-  ";
   margin-left: -2rem;
+}
+
+ul li {
+  margin-top: 0.5rem;
 }
