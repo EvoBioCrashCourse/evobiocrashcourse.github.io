@@ -122,22 +122,22 @@
   }
 
   nav ul {
-    width: 120%;
+    width: 180%;
     position: relative;
     top: 8%;
-    right: 50%;
-    transform: translateX(13%);
+    right: 0%;
+    transform: translateX(-010%);
   }
 
   nav li {
     list-style: none;
     position: relative;
     left: 50%;
-    font-size: 3.8vw;
+    font-size: 3.2vw;
   }
 
   nav li a {
-    font-size: 3.8vw;
+    font-size: 3.2vw;
   }
 
   h2 {
@@ -233,7 +233,7 @@
 
 @media screen and (max-width: 600px) {
   nav {
-    height: 20rem;
+    height: 18rem;
   }
 
   #logo-phone {
@@ -243,20 +243,23 @@
   }
 
   nav ul {
-    width: 160%;
+    width: 180%;
     position: relative;
-    top: -8%;
-    right: 50%;
-    transform: translateX(15%);
+    top: -10%;
+    transform: translateX(-10%);
   }
 
   nav li {
-    font-size: 4.5vw;
+    list-style: none;
+    position: relative;
+    left: 50%;
+    font-size: 3.2vw;
   }
 
   nav li a {
-    font-size: 4.5vw;
+    font-size: 3.2vw;
   }
+
   .main-home {
     float: left;
     margin-top: 4rem;
@@ -265,19 +268,31 @@
 
 @media screen and (max-width: 400px) {
   #logo-phone {
-    margin-top: 15%;
-    width: 80%;
+    margin-top: 3rem;
+    width: 28rem;
     transform: translateX(2%);
   }
 
   nav ul {
-    position: absolute;
-    margin-top: 55%;
-    transform: translateX(7%);
+    width: 180%;
+    position: relative;
+    top: -6rem;
+    transform: translateX(-10%);
+  }
+
+  nav li {
+    list-style: none;
+    position: relative;
+    left: 50%;
+    font-size: 3vw;
+  }
+
+  nav li a {
+    font-size: 3vw;
   }
 
   nav {
-    height: 45vw;
+    height: 13rem;
   }
 
   .team-p {
