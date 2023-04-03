@@ -148,7 +148,7 @@ h6 {
 /* Text in the main (each paragraph) */
 .main-p {
   font-size: 1.8rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   margin-left: 25%;
   margin-right: 20%;
 }
@@ -264,7 +264,7 @@ h5 {
 p.pcontent {
   font-size: 1.8rem;
   margin-bottom: 0rem;
-  margin-top: -3rem;
+  margin-top: 1rem;
 }
 
 .form {
@@ -275,7 +275,7 @@ p.pcontent {
 ol {
   display: block;
   margin-right: 20%;
-  margin-top: -3rem;
+  margin-top: -0.8rem;
   list-style: none;
   counter-reset: li;
   margin-left: 25%;
@@ -293,10 +293,10 @@ ol li::before {
   content: counter(li) ".";
   color: #a9a39c;
   display: inline-block;
-  width: 1.3em;
-  margin-left: -1em;
+  width: 2rem;
+  margin-left: -2.4rem;
 }
 
 #end-evo-devo {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
 }
