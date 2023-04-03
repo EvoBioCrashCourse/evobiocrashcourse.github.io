@@ -259,7 +259,7 @@
   }
 
   nav ul {
-    width: 200%;
+    width: 180%;
     margin-right: 7.5%;
     position: relative;
     top: -20%;
@@ -269,12 +269,12 @@
     list-style: none;
     position: relative;
     left: 50%;
-    font-size: 3.5vw;
+    font-size: 3.6vw;
     margin-left: 0.4vw;
   }
 
   nav li a {
-    font-size: 3.5vw;
+    font-size: 3.6vw;
   }
 
   .main-home {
@@ -293,7 +293,7 @@
   }
 
   nav ul {
-    width: 200%;
+    width: 180%;
     margin-right: 7.5%;
     position: relative;
     top: -5.5rem;
@@ -303,11 +303,11 @@
     list-style: none;
     position: relative;
     left: 50%;
-    font-size: 3.5vw;
+    font-size: 3.6vw;
   }
 
   nav li a {
-    font-size: 3.5vw;
+    font-size: 3.6vw;
   }
 
   nav {
