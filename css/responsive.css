@@ -30,7 +30,8 @@
   }
 
   ol {
-    margin-left: 21%;
+    margin-left: 18%;
+    margin-right: 10%;
   }
 
   .pcontent {
@@ -153,10 +154,19 @@
 
   ol {
     margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  ul {
+    margin-left: -5%;
   }
 
   ol li {
-    margin-left: 0.5rem;
+    margin-left: -1rem;
+  }
+
+  ul li {
+    margin-left: 1rem;
   }
 
   .pcontent {
