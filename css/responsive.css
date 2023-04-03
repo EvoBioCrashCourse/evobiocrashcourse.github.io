@@ -95,6 +95,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .main-team {
+    margin-top: -5rem;
+  }
+
   #logo-top-left {
     display: none;
   }
@@ -117,8 +121,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: -20%;
-    left: 5%;
+    left: 7.5%;
+    top: 3%;
     width: 50rem;
   }
 
@@ -243,20 +247,21 @@
 
 @media screen and (max-width: 600px) {
   nav {
-    height: 18rem;
+    height: 17rem;
+  }
+
+  .main-team {
+    margin-top: -7rem;
   }
 
   #logo-phone {
-    top: -14%;
-    width: 36rem;
-    transform: translateX(2%);
+    width: 30rem;
   }
 
   nav ul {
-    width: 180%;
+    width: 170%;
     position: relative;
-    top: -10%;
-    transform: translateX(-8.5%);
+    top: -20%;
   }
 
   nav li {
@@ -264,6 +269,7 @@
     position: relative;
     left: 50%;
     font-size: 3.2vw;
+    margin-left: 0.4vw;
   }
 
   nav li a {
@@ -278,16 +284,17 @@
 
 @media screen and (max-width: 400px) {
   #logo-phone {
-    margin-top: 3rem;
-    width: 28rem;
-    transform: translateX(2%);
+    width: 24rem;
+  }
+
+  .main-team {
+    margin-top: -10rem;
   }
 
   nav ul {
     width: 180%;
     position: relative;
-    top: -6rem;
-    transform: translateX(-10%);
+    top: -5rem;
   }
 
   nav li {
@@ -302,7 +309,7 @@
   }
 
   nav {
-    height: 13rem;
+    height: 14rem;
   }
 
   .team-p {
