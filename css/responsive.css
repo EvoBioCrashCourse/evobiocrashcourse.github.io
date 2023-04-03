@@ -126,7 +126,7 @@
     position: relative;
     top: 8%;
     right: 0%;
-    transform: translateX(-010%);
+    transform: translateX(-10%);
   }
 
   nav li {
@@ -246,7 +246,7 @@
     width: 180%;
     position: relative;
     top: -10%;
-    transform: translateX(-10%);
+    transform: translateX(-8.5%);
   }
 
   nav li {
