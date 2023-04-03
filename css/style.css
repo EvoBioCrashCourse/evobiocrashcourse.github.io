@@ -285,31 +285,40 @@ p.pcontent {
   color: #e4af0e;
 }
 
+#end-evo-devo {
+  margin-top: 1.2rem;
+}
+
 ol {
   display: block;
-  margin-right: 20%;
+  margin-right: 10%;
   margin-top: -0.8rem;
-  list-style: none;
   counter-reset: li;
   margin-left: 25%;
+  margin-right: 20%;
+  counter-reset: item;
+  list-style-type: none;
 }
 
 ol li {
   position: relative;
   font-size: 1.8rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   counter-increment: li;
   margin-left: 2rem;
 }
 
-ol li::before {
+ol > li:before {
   content: counter(li) ".";
   color: #a9a39c;
   display: inline-block;
   width: 2rem;
   margin-left: -2.4rem;
+  content: counters(item, ".") ". ";
+  counter-increment: item;
 }
 
-#end-evo-devo {
-  margin-top: 1.2rem;
+ul {
+  list-style-type: "-  ";
+  margin-left: -2rem;
 }
