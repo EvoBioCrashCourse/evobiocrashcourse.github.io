@@ -329,9 +329,17 @@ ol > li:before {
 
 ul {
   list-style-type: "-  ";
-  margin-left: -2rem;
+  margin-left: -4rem;
 }
 
-ul li {
-  margin-top: 0.5rem;
+.ul-non-nested {
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.li-non-nested {
+  font-size: 1.8rem;
+  margin-top: 1rem;
 }
