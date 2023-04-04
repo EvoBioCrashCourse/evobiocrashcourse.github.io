@@ -132,7 +132,7 @@
   }
 
   nav ul {
-    width: 180%;
+    width: 158%;
     position: relative;
     top: 8%;
     right: 0%;
@@ -269,7 +269,7 @@
   }
 
   nav ul {
-    width: 190%;
+    width: 200%;
     margin-right: 7.5%;
     position: relative;
     top: -20%;
@@ -305,19 +305,16 @@
   nav ul {
     width: 180%;
     margin-right: 7.5%;
-    position: relative;
+    margin-left: 7.5%;
     top: -5.5rem;
   }
 
   nav li {
-    list-style: none;
-    position: relative;
-    left: 50%;
-    font-size: 3.6vw;
+    font-size: 3.5vw;
   }
 
   nav li a {
-    font-size: 3.6vw;
+    font-size: 3.5vw;
   }
 
   nav {
