@@ -294,6 +294,12 @@ p.pcontent {
   color: #e4af0e;
 }
 
+.form-bold {
+  font-size: 1.8rem;
+  color: #e4af0e;
+  font-weight: 600;
+}
+
 #end-evo-devo {
   margin-top: 1.2rem;
 }
