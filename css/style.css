@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-size: 1.5rem;
   text-decoration: none;
-  color: black;
+  color: #840000;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
@@ -53,20 +53,24 @@ a:hover span {
 
 /* Grey banner */
 nav {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-left: 8%;
   margin-right: 20%;
-  padding: 1.6rem 0 0 0rem;
+  padding-top: 2rem;
+  height: 14rem;
   color: rgb(35, 35, 35);
-  height: 22rem;
 }
 
 /* Main logo */
 #logo-top-left {
-  position: absolute;
   width: 19rem;
-  transform: translateY(-1rem);
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2rem;
 }
+
 
 #logo-phone {
   display: none;
@@ -85,13 +89,21 @@ nav {
 }
 
 /* Unordered list = the navigation float */
-nav ul {
+/*nav ul {
   position: absolute;
   right: 0px;
   margin-right: 20%;
   margin-top: 16rem;
   float: right;
   list-style: none;
+} */
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Elements of the ul */
@@ -108,7 +120,7 @@ nav li {
 nav li a {
   font-size: 2.2rem;
   font-family: "Montserrat", sans-serif;
-  color: #363e36;
+  color: #150000;
 }
 
 /* Main content */
@@ -122,13 +134,13 @@ nav li a {
   margin-bottom: 10rem;
 }
 
-/* Titles (dark green) */
+/* Titles (almost black) */
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 1.2rem;
-  color: #366634;
+  color: #363e36;
   margin-left: 25%;
   margin-right: 20%;
 }
