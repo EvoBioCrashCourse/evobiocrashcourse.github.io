@@ -50,27 +50,27 @@ a:hover span {
 .banner {
   width: 100%;
   background: #f2f2f2;
+  padding: 2rem 0;
 }
 
-/* Grey banner */
+/* Navegation bar */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-left: 8%;
   margin-right: 20%;
-  margin-bottom: 0.5rem;
-  padding-top: 2rem;
-  height: 18rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  height: auto;
   color: rgb(35, 35, 35);
 }
 
 /* Main logo */
 #logo-top-left {
   width: 32rem;
-  display: inline-block;
-  margin-top: 0rem;
-  margin-bottom: 0.5rem;
+  display: block;
+  margin: 0;
 }
 
 #logo-phone {
