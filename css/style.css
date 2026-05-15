@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-size: 1.5rem;
   text-decoration: none;
-  color: #840000;
+  color: #424242;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
@@ -219,6 +219,7 @@ h6 {
 
 #first-title {
   margin-top: -1.2rem;
+  color: #840000,
 }
 
 #hr-team {
@@ -305,12 +306,12 @@ p.pcontent {
 
 .form {
   font-size: 1.8rem;
-  color: #e4af0e;
+  color: #840000;
 }
 
 .form-bold {
   font-size: 1.8rem;
-  color: #e4af0e;
+  color: #840000;
   font-weight: 600;
 }
 
