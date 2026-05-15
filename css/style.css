@@ -59,9 +59,9 @@ nav {
   justify-content: space-between;
   align-items: flex-end;
   margin-left: 8%;
-  margin-right: 20%;
+  margin-right: 10%;
   padding-top: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   height: auto;
   color: rgb(35, 35, 35);
 }
@@ -90,15 +90,6 @@ nav {
 }
 
 /* Unordered list = the navigation float */
-/*nav ul {
-  position: absolute;
-  right: 0px;
-  margin-right: 20%;
-  margin-top: 16rem;
-  float: right;
-  list-style: none;
-} */
-
 nav ul {
   display: flex;
   gap: 2rem;
@@ -107,7 +98,7 @@ nav ul {
   padding: 0;
 }
 
-/* Elements of the ul */
+/* Elements of the ul - WHO ARE YOU? */
 nav li {
   position: relative;
   display: inline-block;
@@ -160,7 +151,7 @@ h3 {
 
 /* Subtitles in red and serif */
 h6 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 2.6rem;
   margin-bottom: 0rem;
@@ -174,7 +165,7 @@ h6 {
 .main-p {
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-right: 20%;
 }
 
@@ -191,7 +182,7 @@ h6 {
 /* Bottom banner titles */
 .bottom-banner-title {
   font-family: "Montserrat", sans-serif;
-  color: #ffd54a;
+  color: #ffffff;
   font-size: 1.8rem;
 }
 
