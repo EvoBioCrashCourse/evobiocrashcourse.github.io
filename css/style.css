@@ -55,22 +55,21 @@ a:hover span {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin-left: 8%;
   margin-right: 20%;
   padding-top: 2rem;
-  height: 14rem;
+  height: 18rem;
   color: rgb(35, 35, 35);
 }
 
 /* Main logo */
 #logo-top-left {
-  width: 30rem;
+  width: 32rem;
   display: inline-block;
-  vertical-align: middle;
-  margin-top: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
 }
-
 
 #logo-phone {
   display: none;
