@@ -189,6 +189,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 1.8rem;
+  font-weight: 600;
 }
 
 /* Bottom banner content */
@@ -360,4 +361,20 @@ ul {
 .li-non-nested {
   font-size: 1.8rem;
   margin-top: 1rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content grows to fill space */
+main {
+  flex: 1;
 }
