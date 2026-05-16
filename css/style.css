@@ -25,16 +25,19 @@ html {
   font-size: 10px;
 }
 
+a {
+  text-decoration: none;
+  transition: 0.15s;
+}
+
 a:hover {
-  color: #e4af0e;
-  opacity: 0.9;
-  transition: 0.1s;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.15rem;
 }
 
 a:hover span {
-  color: #e4af0e;
-  opacity: 0.7;
-  transition: 0.1s;
+  text-decoration: underline;
 }
 
 /* Colour of targeted link */
@@ -204,9 +207,9 @@ h6 {
 }
 
 .bottom-banner-content a:hover {
-  color: #fff7d1;
-  opacity: 0.9;
-  transition: 0.1s;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.15rem;
 }
 
 #first-title {
