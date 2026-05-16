@@ -42,7 +42,9 @@ a:hover span {
 
 /* Colour of targeted link */
 .tab-target a {
-  color: #e4af0e;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.15rem;
 }
 
 .clear {
