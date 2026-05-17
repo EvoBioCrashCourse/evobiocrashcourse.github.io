@@ -116,43 +116,43 @@
     display: none;
   }
 
-  nav {
-    display: block;
-    padding: 0 0 0 0rem;
-    width: 60%;
-    height: 23rem;
-    display: block;
-    text-align: center;
-  }
-
   #logo-phone {
-    position: absolute;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    left: 7.5%;
-    top: 3%;
-    width: 50rem;
-  }
+  position: static;
+  display: block;
+  margin: 0 auto;
+  width: 22rem;
+}
 
-  nav ul {
-    width: 158%;
-    position: relative;
-    top: 8%;
-    right: 0%;
-    transform: translateX(-10%);
-  }
+  nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;          /* IMPORTANT */
+  padding: 1.5rem 0;
+}
 
-  nav li {
-    list-style: none;
-    position: relative;
-    left: 50%;
-    font-size: 3.2vw;
-  }
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  nav li a {
-    font-size: 3.2vw;
-  }
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0;
+
+  gap: 1.2rem;
+}
+
+nav li {
+  position: static !important;
+  left: auto !important;
+  font-size: 2rem;
+}
+
+nav li a {
+  font-size: 2rem;
+}
 
   h2 {
     margin-left: 7.5%;

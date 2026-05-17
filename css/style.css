@@ -122,8 +122,8 @@ nav li a {
 
 /* Main content */
 .main-home {
-  float: left;
-  margin-top: 8rem;
+  margin-top: 0;
+  float: none;
 }
 
 /* Text in the main (global div) */
@@ -379,15 +379,16 @@ main {
 .link-panels {
     display: flex;
     gap: 20px;
-    padding: 40px;
-    justify-content: center;
+    justify-content: center;   /* centers the group */
     align-items: center;
+    padding: 0px;
+    margin: 8rem auto;   /* controls distance from top AND bottom */
+    flex-wrap: wrap;
 }
 
-/* Each clickable panel */
 .panel-link {
     position: relative;
-    flex: 1;
+    width: 500px;              /* fixed width */
     text-decoration: none;
     overflow: hidden;
     border-radius: 1px;
@@ -395,10 +396,11 @@ main {
 
 /* Images */
 .panel-link img {
-    width: 100%;
-    height: 400px;
+    width: 85%;
+    height: auto;
     object-fit: cover;
     display: block;
+    margin: 0 auto;
     transition: transform 0.3s ease;
 }
 
