@@ -71,6 +71,13 @@ nav {
   color: #fcfcf8;
 }
 
+ /* desktop menu */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
 /* Main logo */
 #logo-top-left {
   width: 32rem;
@@ -407,4 +414,65 @@ main {
 /* Hover zoom effect */
 .panel-link:hover img {
     opacity: 0.9;
+}
+
+
+/* Hamburger */
+
+/* hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 3rem;
+  height: 0.3rem;
+  background: white;
+}
+
+/* overlay menu */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 15, 30, 0.98);
+  overflow-x: hidden;
+  transition: 0.4s ease;
+}
+
+/* when active */
+.overlay.active {
+  width: 100%;
+}
+
+/* menu content */
+.overlay-content {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.overlay-content a {
+  font-size: 3rem;
+  color: #fcfcf8;
+  text-decoration: none;
+}
+
+/* close button */
+.closebtn {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  font-size: 5rem;
+  color: white;
 }

@@ -18,28 +18,59 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">     
     </head>
+
+<script>
+function toggleMenu() {
+  document.getElementById("overlay-menu").classList.toggle("active");
+}
+</script>
+
+
     <body>
 <!-- div for the banner and its content -->        
-
 <div class="banner">
     <nav>
 
-        <a href="index.html"> <img id="logo-top-left" src="img/ECC2026_Logo_White.png" alt="">  
-        <a href="index.html"> <img id="logo-phone" src="img/ECC2026_Logo_White.png">  </a>
+  <a href="index.html">
+    <img id="logo-top-left" src="img/ECC2026_Logo_White.png" alt="">
+  </a>
 
-    <ul>
-        <li><a href="index.html"> Home </li>
-        <li class="tab-target"><a href="coursecontent.html"> Programme </a></li>
+  <a href="index.html">
+    <img id="logo-phone" src="img/ECC2026_Logo_White.png">
+  </a>
+
+   <ul>
+        <li class="tab-target"><a href="index.html"> Home </li>
+        <li><a href="coursecontent.html"> Programme </a></li>
         <li><a href="other.html"> Other opportunities </a></li>
         <li><a href="team.html"> Team </a></li>
 
     </ul>
-  </nav>
+
+  <!-- Hamburger button -->
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</nav>
+
+<!-- FULL SCREEN OVERLAY MENU -->
+<div id="overlay-menu" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="coursecontent.html">Programme</a>
+    <a href="other.html">Other opportunities</a>
+    <a href="team.html">Team</a>
+  </div>
+</div>
 
 </div>
 
-
-          
+         
 <main class="main-home">
 <div class="text-div"> 
     
