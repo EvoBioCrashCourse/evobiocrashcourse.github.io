@@ -112,10 +112,10 @@ nav li a {
   }
 
   h4 {
-    text-align: center;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-    transform: translateY(27.5rem);
+  text-align: center;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 2rem;  /* adjust to taste */
   }
 
   .h4-name {
@@ -157,9 +157,12 @@ nav li a {
     margin-right: 7.5%;
   }
 
-  .hamburger {
-    display: flex;
-  }
+.hamburger {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 3rem; 
+}
 
   .nav-links {
     display: none;   /* Hide desktop menu */
