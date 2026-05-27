@@ -1,7 +1,8 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .container {
     margin: 20px 0;
   }
+
 
   .main-team {
     margin-top: -5rem;
@@ -175,3 +176,14 @@ nav li a {
 }
 
 
+  @media (max-width: 1250px) and (min-width: 800px) {  /* adjust breakpoints to taste */
+  .nav-other {
+    font-size: 0;        /* hides the original text */
+  }
+  .nav-other::after {
+    content: "Other";
+  font-size: 2.1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fcfcf8;
+  }
+}
