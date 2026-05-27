@@ -391,6 +391,7 @@ main {
     padding: 0px;
     margin: 8rem auto;   /* controls distance from top AND bottom */
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .panel-link {
